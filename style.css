@@ -1,0 +1,144 @@
+.initial {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: 10%;
+    width: 20%;
+    height: 40%;
+}
+
+.request {
+    border: 2px solid; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+  
+.btn {
+    margin-top: 5%;
+    margin-left: 40%;
+}
+
+h1 {
+    padding: 0%;
+    text-align: center;
+    margin-bottom: 7%;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+.menu {
+    line-height: 100%;
+    display: grid;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.2fr 0.2fr 0.2fr 0.4fr;
+    width: 80%;
+    height: 70vh;
+    gap: 20px 20px;
+    grid-template-areas: 
+      "header header"
+      "data proses"
+      "tagihan tagihan"
+      "rincian rincian";
+}
+
+.header {
+    display: inline;
+    font-size: 70px;
+    grid-area: header;
+    margin-bottom: 10%;
+}
+
+.table {
+    grid-area: data;
+}
+
+.proses {
+    grid-area: proses;
+    padding: 25px;
+    border: 2px solid;
+    border-radius: 40px;
+}
+
+.tagihan {
+    grid-area: tagihan;
+    margin-top: 10%;
+}
+
+.rincian {
+    grid-area: rincian;
+}
+
+p {
+    width: fit-content;
+    margin-left: 10%;
+}
+
+html {
+    background-image: url( "Abstract\ Electric\ Cables\ Templates.jpg" );
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.no-border {
+    text-align: left;
+    border: none;
+    background: white;
+    color: black;
+}
+
+.bottom-border {
+    text-align: left;
+    border: none;
+    border-bottom: 2px solid;
+    background: white;
+    color: black;
+}
+
+td {
+    text-align: center;
+}
+
+th {
+    color: white;
+    background: black;
+}
+  
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background: white;
+}
+
+tr:nth-child(odd) {
+    background: #bdabab;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+} 
+
+footer .copyrights {
+    right: 50%;
+    background-color: rgba(62, 62, 62, 1);
+    color: rgba(200, 200, 200, 1);
+    padding: .25rem 1.75rem;
+}
