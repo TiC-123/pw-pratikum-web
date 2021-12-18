@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PT.Once Sejahtera</title>
+    <link rel="stylesheet" href="style.css">
+    <script type = "text/javascript" src = "script.js"></script>
+</head>
+
+<body class = "menu">
+    <header class = "header">
+        <div class="flex-container">
+            <img src="https://3.bp.blogspot.com/-HHUdGYrwK6o/V7CHYo6E9LI/AAAAAAAAEk0/iuagxHwj-vIYUNcOMrTqVTv4wUU0GdTPQCLcB/s1600/Logo-Up.png" alt="">
+            <p>PT.Once Sejahtera</p>
+        </div>
+    </header>
+
+    <table id="kategori-table" class="initial table"></table>
+
+    <div class="proses">
+        <h1>Masukkan Data</h1>
+
+        Nama pelanggan: &ensp; <input id="nama" placeholder="masukkan nama"> <br>
+        <label for="kategori">Kategori: &nbsp;&ensp;&emsp;&emsp;&emsp;</label>
+            <select id="kategori">
+                <option disable selected hidden>Pilih Kategori</option>
+                <option value="Sosial">Sosial</option>
+                <option value="Rumah">Rumah</option>
+                <option value="Apartemen">Apartemen</option>
+                <option value="Industri">Industri</option>
+                <option value="Villa">Villa</option>
+            </select>
+        <br>
+        Jumlah Pemakaian: <input type="number" id="pemakaian" placeholder="masukkan pemakaian"> <br>
+        <input class="btn" name="submit" type="submit" onclick="checkRequest()">
+    </div>
+
+    <div id="tagihan" class="tagihan"></div>
+
+    <div id="rincian" class="rincian"></div>
+
+    <script>
+        showKategori(kategori);
+    </script>
+
+    <footer>
+        <div class="copyrights">
+            <p style="right: 50%;">&copy; Timothy Christyan _ 105219045 _ CS-2019</p>
+            <p>Assignment 6 for pratical training web programming.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
