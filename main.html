@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script type = "text/javascript" src = "script.js"></script>
+    <title>
+		Pratikum 7
+	</title>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <ul>
+                <li class="logo">
+                    <img 
+                        height="44" title="Web Monitoring Logo" alt="Web Monitoring Logo!"
+                        src="https://3.bp.blogspot.com/-HHUdGYrwK6o/V7CHYo6E9LI/AAAAAAAAEk0/iuagxHwj-vIYUNcOMrTqVTv4wUU0GdTPQCLcB/s1600/Logo-Up.png"
+                    /></a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="main">
+        <div class="province">
+            </br></br></br></br></br></br>
+            <label for="province">Choose a Province:</label></br>
+                <select name="province" id="province" onchange="showCity()">
+                    <option value="" disable selected hidden>Choose Province</option>
+                    <option value="DKI Jakarta">DKI Jakarta</option>
+                    <option value="Sumatra Utara">Sumatra Utara</option>
+                    <option value="Kalimantan Barat">Kalimantan Barat</option>
+                    <option value="Bali">Bali</option>
+                    <option value="Sulawesi Selatan">Sulawesi Selatan</option>
+                    <option value="Maluku">Maluku</option>
+                </select>
+        </div>
+        <div class="city">
+            </br></br></br></br></br></br>
+            <label style="margin-left: 35%;" for="city">Choose a City:</label></br>
+                <select name="city" id="city" style="margin-left: 35%;" onchange="showText()">
+                    <option value="" disable selected hidden>Choose a Province First</option>
+                </select>
+        </div>
+        <div class="heading">
+            <h1></h1>
+        </div>
+        <div class="button">
+            <button value="dark" onclick="changeMode()">Dark Mode</button>
+        </div>
+    </section>
+
+	<footer>
+		<div class="copyrights">
+			<p>&copy; Timothy Christyan _ 105219045 _ CS-2019</p>
+            <p>&copy; Assignment 7 for pratical training web programming</p>
+		</div>
+	</footer>
+</body>
+</html>

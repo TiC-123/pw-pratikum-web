@@ -1,0 +1,98 @@
+html {
+    background-image: url("light.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+} html, body {
+    color: rgba(33, 37, 41, 1);
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+} header {
+    background-color: #70b3b3;
+    padding: 5px;
+} .menu {
+    padding: .4rem 2rem;
+} header ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    text-align: right;
+} header .logo {
+    float: left;
+    height: 44px;
+    padding: 10px;
+} .d-flex {
+    display: flex;
+} footer {
+    background-color: #30e3e0;
+    text-align: center;
+} footer .copyrights {
+    background-color: #34e5eb;
+    color: black;
+    padding: .25rem 1.75rem;
+} .main {
+    line-height: 100%;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.8fr 1fr 0.2fr;
+    width: 100%;
+    height: 100vh;
+    grid-template-areas: 
+        "province city"
+        "heading heading"
+        "button button";
+} .province {
+    grid-area: province;
+} .city {
+    grid-area: city;
+} .heading {
+    grid-area: heading;
+} .button {
+    margin-bottom: 70px;
+    grid-area: button;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} select {
+    font-size: 30px;
+    height:50px;
+    width:350px;
+    margin-left: 20%;
+} label {
+    text-shadow:
+    2px  4px 8px black;
+    color: white;
+    font-size: 50px;
+    margin-left: 20%;
+} h1 {
+    background-image: url("light-city.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 80%;
+    margin-left: 10%;
+    height: 220px;
+    border: 3px dashed #1c87c9;
+    top: 10%;
+    position: relative;
+    line-height: normal;
+    text-shadow:
+    2px  4px 8px black,
+    2px -4px 8px black,
+   -2px  4px 8px black,
+   -2px -4px 8px black;
+    text-align: center;
+    color: white;
+    font-family: "MV Boli"; 
+    font-size: 50px;  
+    font-weight: 700; 
+} 
