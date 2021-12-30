@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pratikum 8 JSON</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <ul>
+                <li class="logo">
+                    <img height="44" title="Web Monitoring Logo" alt="Web Monitoring Logo!"
+                        src="https://3.bp.blogspot.com/-HHUdGYrwK6o/V7CHYo6E9LI/AAAAAAAAEk0/iuagxHwj-vIYUNcOMrTqVTv4wUU0GdTPQCLcB/s1600/Logo-Up.png"
+                    />
+                </li>
+                <li class="title">
+                    Restaurant UP
+                </li>
+                <li class="menu-item hidden">All Menu:</li>
+                <li class="menu-item hidden">
+                    <a onclick="foodType(null)">All</a>
+                </li>
+                <li class="menu-item hidden">
+                    <a onclick="foodType('makanan')">Foods</a>
+                </li>
+                <li class="menu-item hidden">
+                    <a onclick="foodType('minuman')">Beverages</a>
+                </li>
+                <li class="menu-item hidden">
+                    <a onclick="foodType('desert')">Deserts</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <div id="food-list" class="food-list"></div>
+
+	<footer>
+			<p style="text-align: center;">&copy; Timothy Christyan _ 105219045 _ CS-2019.</p>
+            <p style="text-align: center;">Assignment 8 for pratical training web programming.</p>
+	</footer>
+</body>
+</html>
