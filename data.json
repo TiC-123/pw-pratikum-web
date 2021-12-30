@@ -1,0 +1,75 @@
+{
+    "menu" : [
+        {
+            "jenis":"makanan",
+            "nama":"Tuna Sushi",
+            "deskripsi":"Sushi dari ikan tuna segar",
+            "harga":30000,
+            "estimasi":"1 porsi 6 potong sushi",
+            "gambar":"sushi.jpg"
+        }, {
+            "jenis":"minuman",
+            "nama":"Es Buah",
+            "deskripsi":"Es dari buah-buahan segar",
+            "harga":17000,
+            "estimasi":"1 porsi 1 mangkuk",
+            "gambar":"es-buah.jpg"
+        }, {
+            "jenis":"desert",
+            "nama":"Ice Cream",
+            "deskripsi":"Es krim vanilla",
+            "harga":5000,
+            "estimasi":"1 porsi 1 cone",
+            "gambar":"es-krim.jpg"
+        }, {
+            "jenis":"minuman",
+            "nama":"Boba Tea",
+            "deskripsi":"Teh boba dingin dan segar",
+            "harga":20000,
+            "estimasi":"1 porsi 1 gelas",
+            "gambar":"boba-tea.jpg"
+        }, {
+            "jenis":"desert",
+            "nama":"Cream Puff",
+            "deskripsi":"Kue sus lembut",
+            "harga":5000,
+            "estimasi":"1 box 4 kue",
+            "gambar":"cream-puff.jpg"
+        }, {
+            "jenis":"makanan",
+            "nama":"Hamburger",
+            "deskripsi":"Hamberger dengan daging beef asli",
+            "harga":25000,
+            "estimasi":"1 porsi 1 burger",
+            "gambar":"Hamburger.jpg"
+        }, {
+            "jenis":"desert",
+            "nama":"Pudding",
+            "deskripsi":"Pudding susu dengan saus vanilla",
+            "harga":10000,
+            "estimasi":"1 cup 1 pudding",
+            "gambar":"Pudding.jpg"
+        }, {
+            "jenis":"makanan",
+            "nama":"Pizza",
+            "deskripsi":"Pizza dengan keju mozarella bertopping peperonni",
+            "harga":40000,
+            "estimasi":"1 pizza 8 slice",
+            "gambar":"Pizza.jpg"
+        }, {
+            "jenis":"makanan",
+            "nama":"Miso Ramen",
+            "deskripsi":"Ramen dengan kaldu miso",
+            "harga":25000,
+            "estimasi":"1 porsi 1 mangkuk",
+            "gambar":"miso-ramen.jpg"
+        }, {
+            "jenis":"minuman",
+            "nama":"Coca Cola",
+            "deskripsi":"Minuman bersoda",
+            "harga":5000,
+            "estimasi":"1 botol 500gram",
+            "gambar":"coca-cola.jpg"
+        }
+    ]
+}
