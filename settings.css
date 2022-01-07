@@ -1,0 +1,144 @@
+html {
+    background: url(Office.webp) no-repeat;
+} html, body {
+    color: rgba(33, 37, 41, 1);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+} header {
+    background-color: rgba(247, 248, 249, 1);
+    padding: .4rem 0 0;
+} .menu {
+    padding: .4rem 2rem;
+} header ul {
+    border-bottom: 1px solid rgba(242, 242, 242, 1);
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    text-align: right;
+} header li {
+    display: inline-block;
+} header li a {
+    border-radius: 5px;
+    color: rgba(0, 0, 0, .5);
+    display: block;
+    height: 44px;
+    text-decoration: none;
+} header li.menu-item a {
+    border-radius: 5px;
+    margin: 5px 0;
+    height: 38px;
+    line-height: 36px;
+    padding: .4rem .65rem;
+    text-align: center;
+} header li.menu-item a:hover, header li.menu-item a:focus {
+    background-color: #33bef5;
+    color: rgb(172, 218, 248);
+} header .logo {
+    float: left;
+    height: 44px;
+    padding: .4rem .5rem;
+} @media (max-width: 629px) {
+    header .menu-item {
+        background-color: rgba(244, 245, 246, 1);
+        border-top: 1px solid rgba(242, 242, 242, 1);
+        margin: 0 15px;
+        width: calc(100% - 30px);
+    } header .hidden {
+        display: none;
+    }
+} footer {
+    text-align: center;
+    background-color: rgba(62, 62, 62, 1);
+    color: rgba(200, 200, 200, 1);
+    padding: .25rem 1.75rem;
+} a.add, a.delete {
+    display: block;
+    height: 38px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px 0;
+    line-height: 36px;
+    padding: .4rem .65rem;
+    text-align: center;
+} a.add {
+    float: right;
+    margin-right: 10%;
+    margin-top: 2%;
+    background-color: #3f12e0;
+    color: rgb(255, 255, 255);
+} a.delete {
+    background-color: #eb4a22;
+    color: rgb(255, 255, 255);
+} .title {
+    float: left;
+    margin-left: 37%;
+    padding-top: 5px;
+    padding-left: 45px;
+    position: relative;
+    text-align: center;
+    color: rgb(97, 110, 224);
+    font-family: "MV Boli"; 
+    font-size: 30px;  
+    font-weight: 700;
+} .data-karyawan {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 80%;
+    border-collapse: collapse;
+} td {
+    text-align: center;
+} th {
+    color: white;
+    background: black;
+} th, td {
+    border: 1px solid black;
+    padding: 8px;
+} tr:nth-child(even) {
+    background: white;
+} tr:nth-child(odd) {
+    background: #bdabab;
+} form {
+    margin-left: 33%;
+    line-height: 30px;
+    margin-bottom: 5%;
+} input {
+    width: 300px;
+} select {
+    width: 308px;
+    height: 23px;
+} h1 {
+    font-family: "Didot", serif;
+    font-variant: small-caps;
+    font-weight: bolder;
+    font-size: 80px;
+    -webkit-text-stroke: 2px black;
+    color: white;
+    margin-top: 5%;
+    text-align: center;
+} label {
+    font-weight: bold;
+} section {
+    border-radius: 25px;
+    border: black solid 2px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: white;
+} .submit {
+    background-color: #3b9c6f;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+} 
